@@ -3823,7 +3823,7 @@ body.single-post .site-content .post-navigation .next-post h3, body.single-post 
 @media screen and (min-width: 64em) {
     .site-header .site-branding {
         position: static;
-        width: 100%;
+        width: 50%;
         float: left;
     }
 
@@ -3888,8 +3888,9 @@ body.single-post .site-content .post-navigation .next-post h3, body.single-post 
 }
 
 .site-header .brand-name {
-    float: right;
+    float: left;
     color: #ffffff;
+    margin-left: 10px;
 }
 
 .site-header .site-branding img {
@@ -5117,7 +5118,7 @@ body.archive.tax-series, body.post-type-archive-podcast, body.single-podcast {
     }
 }
 
-.site-footer .social-list {
+.social-list {
     width: 100%;
     padding-left: .9375rem;
     padding-right: .9375rem;
@@ -5126,12 +5127,12 @@ body.archive.tax-series, body.post-type-archive-podcast, body.single-podcast {
     text-align: center
 }
 
-.site-footer .social-list:last-child:not(:first-child) {
+.social-list:last-child:not(:first-child) {
     float: right
 }
 
 @media screen and (min-width: 40em) {
-    .site-footer .social-list {
+    .social-list {
         width: 50%;
         float: left;
         padding-left: .9375rem;
@@ -5140,33 +5141,33 @@ body.archive.tax-series, body.post-type-archive-podcast, body.single-podcast {
         text-align: right
     }
 
-    .site-footer .social-list:last-child:not(:first-child) {
+    .social-list:last-child:not(:first-child) {
         float: right
     }
 }
 
-.site-footer .social-list a {
+.social-list a {
     color: #fff
 }
 
-.site-footer .social-list ul {
+.social-list ul {
     margin-bottom: 7.5px
 }
 
 @media screen and (min-width: 40em) {
-    .site-footer .social-list ul {
+    .social-list ul {
         margin-bottom: 0
     }
 }
 
-.site-footer .social-list li {
+.social-list li {
     display: inline-block;
     margin: 0 15px;
     font-size: 2em
 }
 
 @media screen and (min-width: 40em) {
-    .site-footer .social-list li {
+    .social-list li {
         font-size: 1.5em
     }
 }
