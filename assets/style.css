@@ -2743,7 +2743,7 @@ p + .gform_wrapper {
 }
 
 .site-content {
-    padding-top: 60px
+    padding-top: 20px
 }
 
 body:not(.home) .site-content {
@@ -3236,9 +3236,6 @@ body.single-post .site-content .post-navigation .next-post h3, body.single-post 
 
 .site-header {
     background-color: #333033;
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     padding: 5px 0 0;
     z-index: 9;
@@ -3401,7 +3398,7 @@ body.single-post .site-content .post-navigation .next-post h3, body.single-post 
 }
 
 .homepage-subscribe {
-    padding: 60px 0 0 0;
+    padding: 0 0 0 0;
 }
 
 .indicates-required {
@@ -3418,7 +3415,7 @@ body.single-post .site-content .post-navigation .next-post h3, body.single-post 
     }
 
     .homepage-subscribe {
-        padding: 60px 0 0 0;
+        padding: 0 0 0 0;
     }
 
     .subscribe-form {
